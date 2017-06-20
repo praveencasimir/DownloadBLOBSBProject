@@ -1,0 +1,14 @@
+<adapter-config name="FetchDocContent" adapter="db" wsdlLocation="FetchDocContent.wsdl" xmlns="http://platform.integration.oracle/blocks/adapter/fw/metadata">
+  
+  <connection-factory UIConnectionName="wpsdev" location="eis/db/exampledatasourceds"/>
+  <endpoint-interaction portType="FetchDocContent_ptt" operation="FetchDocContentSelect">
+    <interaction-spec className="oracle.tip.adapter.db.DBReadInteractionSpec">
+      <property name="DescriptorName" value="FetchDocContent.X"/>
+      <property name="QueryName" value="FetchDocContentSelect"/>
+      <property name="MappingsMetaDataURL" value="FetchDocContent-or-mappings.xml"/>
+      <property name="ReturnSingleResultSet" value="false"/>
+      <property name="GetActiveUnitOfWork" value="false"/>
+    </interaction-spec>
+  </endpoint-interaction>
+
+</adapter-config>

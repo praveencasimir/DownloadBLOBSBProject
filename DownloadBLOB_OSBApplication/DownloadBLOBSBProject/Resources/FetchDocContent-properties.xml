@@ -1,0 +1,27 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+   <entry key="X.XNO:db_column_not_null">false</entry>
+   <entry key="X.XNO:db_column_precision">38</entry>
+   <entry key="X.COLUMN4:db_column_type">VARCHAR2</entry>
+   <entry key="X.COLUMN3:db_column_not_null">false</entry>
+   <entry key="X.COLUMN3:db_column_size">200</entry>
+   <entry key="X:db_table_type">TABLE</entry>
+   <entry key="X.COLUMN2:db_column_not_null">false</entry>
+   <entry key="return_single_result_set">false</entry>
+   <entry key="X.COLUMN2:db_column_type">TIMESTAMP</entry>
+   <entry key="X.COLUMN4:db_column_size">500</entry>
+   <entry key="X.COLUMN2:db_column_scale">6</entry>
+   <entry key="X.COLUMN1:db_column_not_null">false</entry>
+   <entry key="root_descriptor_alias">X</entry>
+   <entry key="X.COLUMN1:db_column_type">BLOB</entry>
+   <entry key="X.XNO:db_column_scale">0</entry>
+   <entry key="X.XNO:db_column_type">NUMBER</entry>
+   <entry key="X.COLUMN3:db_column_type">VARCHAR2</entry>
+   <entry key="X:db_column_4">COLUMN4</entry>
+   <entry key="X:db_column_3">COLUMN3</entry>
+   <entry key="X:db_column_2">COLUMN2</entry>
+   <entry key="X:db_column_1">COLUMN1</entry>
+   <entry key="X:db_column_0">XNO</entry>
+   <entry key="X.COLUMN4:db_column_not_null">false</entry>
+</properties>
